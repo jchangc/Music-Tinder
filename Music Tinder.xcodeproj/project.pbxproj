@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1884DB671B9A78900029FE63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB661B9A78900029FE63 /* AppDelegate.swift */; };
+		1884DB691B9A78900029FE63 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB681B9A78900029FE63 /* RootViewController.swift */; };
+		1884DB6B1B9A78900029FE63 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB6A1B9A78900029FE63 /* DataViewController.swift */; };
+		1884DB6D1B9A78900029FE63 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB6C1B9A78900029FE63 /* ModelController.swift */; };
+		1884DB701B9A78900029FE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884DB6E1B9A78900029FE63 /* Main.storyboard */; };
+		1884DB721B9A78900029FE63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1884DB711B9A78900029FE63 /* Images.xcassets */; };
+		1884DB751B9A78900029FE63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884DB731B9A78900029FE63 /* LaunchScreen.xib */; };
+		1884DB811B9A78900029FE63 /* Music_TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB801B9A78900029FE63 /* Music_TinderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1884DB7B1B9A78900029FE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1884DB591B9A78900029FE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1884DB601B9A78900029FE63;
+			remoteInfo = "Music Tinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1884DB611B9A78900029FE63 /* Music Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884DB651B9A78900029FE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884DB661B9A78900029FE63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1884DB681B9A78900029FE63 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1884DB6A1B9A78900029FE63 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		1884DB6C1B9A78900029FE63 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		1884DB6F1B9A78900029FE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1884DB711B9A78900029FE63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1884DB741B9A78900029FE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1884DB7A1B9A78900029FE63 /* Music TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music TinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884DB7F1B9A78900029FE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884DB801B9A78900029FE63 /* Music_TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_TinderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1884DB5E1B9A78900029FE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884DB771B9A78900029FE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884DB581B9A78900029FE63 = {
+			isa = PBXGroup;
+			children = (
+				1884DB631B9A78900029FE63 /* Music Tinder */,
+				1884DB7D1B9A78900029FE63 /* Music TinderTests */,
+				1884DB621B9A78900029FE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1884DB621B9A78900029FE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB611B9A78900029FE63 /* Music Tinder.app */,
+				1884DB7A1B9A78900029FE63 /* Music TinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1884DB631B9A78900029FE63 /* Music Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB661B9A78900029FE63 /* AppDelegate.swift */,
+				1884DB681B9A78900029FE63 /* RootViewController.swift */,
+				1884DB6A1B9A78900029FE63 /* DataViewController.swift */,
+				1884DB6C1B9A78900029FE63 /* ModelController.swift */,
+				1884DB6E1B9A78900029FE63 /* Main.storyboard */,
+				1884DB711B9A78900029FE63 /* Images.xcassets */,
+				1884DB731B9A78900029FE63 /* LaunchScreen.xib */,
+				1884DB641B9A78900029FE63 /* Supporting Files */,
+			);
+			path = "Music Tinder";
+			sourceTree = "<group>";
+		};
+		1884DB641B9A78900029FE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB651B9A78900029FE63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1884DB7D1B9A78900029FE63 /* Music TinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB801B9A78900029FE63 /* Music_TinderTests.swift */,
+				1884DB7E1B9A78900029FE63 /* Supporting Files */,
+			);
+			path = "Music TinderTests";
+			sourceTree = "<group>";
+		};
+		1884DB7E1B9A78900029FE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB7F1B9A78900029FE63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1884DB601B9A78900029FE63 /* Music Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884DB841B9A78900029FE63 /* Build configuration list for PBXNativeTarget "Music Tinder" */;
+			buildPhases = (
+				1884DB5D1B9A78900029FE63 /* Sources */,
+				1884DB5E1B9A78900029FE63 /* Frameworks */,
+				1884DB5F1B9A78900029FE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Tinder";
+			productName = "Music Tinder";
+			productReference = 1884DB611B9A78900029FE63 /* Music Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1884DB791B9A78900029FE63 /* Music TinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884DB871B9A78900029FE63 /* Build configuration list for PBXNativeTarget "Music TinderTests" */;
+			buildPhases = (
+				1884DB761B9A78900029FE63 /* Sources */,
+				1884DB771B9A78900029FE63 /* Frameworks */,
+				1884DB781B9A78900029FE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1884DB7C1B9A78900029FE63 /* PBXTargetDependency */,
+			);
+			name = "Music TinderTests";
+			productName = "Music TinderTests";
+			productReference = 1884DB7A1B9A78900029FE63 /* Music TinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1884DB591B9A78900029FE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "MUSIC TINDER";
+				TargetAttributes = {
+					1884DB601B9A78900029FE63 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1884DB791B9A78900029FE63 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1884DB601B9A78900029FE63;
+					};
+				};
+			};
+			buildConfigurationList = 1884DB5C1B9A78900029FE63 /* Build configuration list for PBXProject "Music Tinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1884DB581B9A78900029FE63;
+			productRefGroup = 1884DB621B9A78900029FE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1884DB601B9A78900029FE63 /* Music Tinder */,
+				1884DB791B9A78900029FE63 /* Music TinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1884DB5F1B9A78900029FE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884DB701B9A78900029FE63 /* Main.storyboard in Resources */,
+				1884DB751B9A78900029FE63 /* LaunchScreen.xib in Resources */,
+				1884DB721B9A78900029FE63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884DB781B9A78900029FE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1884DB5D1B9A78900029FE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884DB691B9A78900029FE63 /* RootViewController.swift in Sources */,
+				1884DB6D1B9A78900029FE63 /* ModelController.swift in Sources */,
+				1884DB6B1B9A78900029FE63 /* DataViewController.swift in Sources */,
+				1884DB671B9A78900029FE63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884DB761B9A78900029FE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884DB811B9A78900029FE63 /* Music_TinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1884DB7C1B9A78900029FE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1884DB601B9A78900029FE63 /* Music Tinder */;
+			targetProxy = 1884DB7B1B9A78900029FE63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1884DB6E1B9A78900029FE63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884DB6F1B9A78900029FE63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1884DB731B9A78900029FE63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884DB741B9A78900029FE63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1884DB821B9A78900029FE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1884DB831B9A78900029FE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1884DB851B9A78900029FE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Tinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1884DB861B9A78900029FE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Tinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1884DB881B9A78900029FE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Music TinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Tinder.app/Music Tinder";
+			};
+			name = Debug;
+		};
+		1884DB891B9A78900029FE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Music TinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Tinder.app/Music Tinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1884DB5C1B9A78900029FE63 /* Build configuration list for PBXProject "Music Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884DB821B9A78900029FE63 /* Debug */,
+				1884DB831B9A78900029FE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884DB841B9A78900029FE63 /* Build configuration list for PBXNativeTarget "Music Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884DB851B9A78900029FE63 /* Debug */,
+				1884DB861B9A78900029FE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1884DB871B9A78900029FE63 /* Build configuration list for PBXNativeTarget "Music TinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884DB881B9A78900029FE63 /* Debug */,
+				1884DB891B9A78900029FE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1884DB591B9A78900029FE63 /* Project object */;
+}
