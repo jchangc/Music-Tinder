@@ -15,6 +15,22 @@
 		1884DB721B9A78900029FE63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1884DB711B9A78900029FE63 /* Images.xcassets */; };
 		1884DB751B9A78900029FE63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884DB731B9A78900029FE63 /* LaunchScreen.xib */; };
 		1884DB811B9A78900029FE63 /* Music_TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB801B9A78900029FE63 /* Music_TinderTests.swift */; };
+		1884DB911B9A7D030029FE63 /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB8E1B9A7D030029FE63 /* UIView+MDCSwipeToChoose.m */; };
+		1884DB921B9A7D030029FE63 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB901B9A7D030029FE63 /* MDCSwipeToChooseView.m */; };
+		1884DB9C1B9A7DB40029FE63 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB941B9A7DB40029FE63 /* MDCSwipeOptions.m */; };
+		1884DB9D1B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB961B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.m */; };
+		1884DB9E1B9A7DB40029FE63 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB991B9A7DB40029FE63 /* MDCSwipeResult.m */; };
+		1884DB9F1B9A7DB40029FE63 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DB9B1B9A7DB40029FE63 /* MDCPanState.m */; };
+		1884DBA91B9A7DF20029FE63 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBA11B9A7DF20029FE63 /* MDCGeometry.m */; };
+		1884DBAA1B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBA31B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.m */; };
+		1884DBAB1B9A7DF20029FE63 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBA51B9A7DF20029FE63 /* UIView+MDCBorderedLabel.m */; };
+		1884DBAC1B9A7DF20029FE63 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBA71B9A7DF20029FE63 /* MDCViewState.m */; };
+		1884DBAF1B9AA70E0029FE63 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1884DBAE1B9AA70D0029FE63 /* play.png */; };
+		1884DBB11B9AA7160029FE63 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1884DBB01B9AA7160029FE63 /* stop.png */; };
+		1884DBB31B9AB5520029FE63 /* stoletheshow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1884DBB21B9AB5520029FE63 /* stoletheshow.mp3 */; };
+		1884DBB51B9AD8DD0029FE63 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBB41B9AD8DD0029FE63 /* PushButtonView.swift */; };
+		1884DBB71B9BAA520029FE63 /* DataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884DBB61B9BAA520029FE63 /* DataView.xib */; };
+		1884DBB91B9BC2A10029FE63 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884DBB81B9BC2A10029FE63 /* SwipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,37 @@
 		1884DB7A1B9A78900029FE63 /* Music TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music TinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1884DB7F1B9A78900029FE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1884DB801B9A78900029FE63 /* Music_TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_TinderTests.swift; sourceTree = "<group>"; };
+		1884DB8A1B9A7D020029FE63 /* Music Tinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music Tinder-Bridging-Header.h"; sourceTree = "<group>"; };
+		1884DB8B1B9A7D030029FE63 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		1884DB8C1B9A7D030029FE63 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		1884DB8D1B9A7D030029FE63 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		1884DB8E1B9A7D030029FE63 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		1884DB8F1B9A7D030029FE63 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		1884DB901B9A7D030029FE63 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		1884DB931B9A7DB40029FE63 /* MDCSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeOptions.h; sourceTree = "<group>"; };
+		1884DB941B9A7DB40029FE63 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeOptions.m; sourceTree = "<group>"; };
+		1884DB951B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		1884DB961B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		1884DB971B9A7DB40029FE63 /* MDCSwipeDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeDirection.h; sourceTree = "<group>"; };
+		1884DB981B9A7DB40029FE63 /* MDCSwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeResult.h; sourceTree = "<group>"; };
+		1884DB991B9A7DB40029FE63 /* MDCSwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeResult.m; sourceTree = "<group>"; };
+		1884DB9A1B9A7DB40029FE63 /* MDCPanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPanState.h; sourceTree = "<group>"; };
+		1884DB9B1B9A7DB40029FE63 /* MDCPanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPanState.m; sourceTree = "<group>"; };
+		1884DBA01B9A7DF20029FE63 /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
+		1884DBA11B9A7DF20029FE63 /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
+		1884DBA21B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		1884DBA31B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		1884DBA41B9A7DF20029FE63 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		1884DBA51B9A7DF20029FE63 /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		1884DBA61B9A7DF20029FE63 /* MDCViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCViewState.h; sourceTree = "<group>"; };
+		1884DBA71B9A7DF20029FE63 /* MDCViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCViewState.m; sourceTree = "<group>"; };
+		1884DBA81B9A7DF20029FE63 /* MDCSwipeToChoose-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-Prefix.pch"; sourceTree = "<group>"; };
+		1884DBAE1B9AA70D0029FE63 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		1884DBB01B9AA7160029FE63 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		1884DBB21B9AB5520029FE63 /* stoletheshow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stoletheshow.mp3; sourceTree = "<group>"; };
+		1884DBB41B9AD8DD0029FE63 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		1884DBB61B9BAA520029FE63 /* DataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataView.xib; sourceTree = "<group>"; };
+		1884DBB81B9BC2A10029FE63 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +128,22 @@
 		1884DB631B9A78900029FE63 /* Music Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				1884DBAD1B9A7E1E0029FE63 /* Swipe Clone */,
 				1884DB661B9A78900029FE63 /* AppDelegate.swift */,
 				1884DB681B9A78900029FE63 /* RootViewController.swift */,
+				1884DBB41B9AD8DD0029FE63 /* PushButtonView.swift */,
 				1884DB6A1B9A78900029FE63 /* DataViewController.swift */,
 				1884DB6C1B9A78900029FE63 /* ModelController.swift */,
 				1884DB6E1B9A78900029FE63 /* Main.storyboard */,
+				1884DBB61B9BAA520029FE63 /* DataView.xib */,
+				1884DBB81B9BC2A10029FE63 /* SwipeView.swift */,
+				1884DBAE1B9AA70D0029FE63 /* play.png */,
+				1884DBB01B9AA7160029FE63 /* stop.png */,
+				1884DBB21B9AB5520029FE63 /* stoletheshow.mp3 */,
 				1884DB711B9A78900029FE63 /* Images.xcassets */,
 				1884DB731B9A78900029FE63 /* LaunchScreen.xib */,
 				1884DB641B9A78900029FE63 /* Supporting Files */,
+				1884DB8A1B9A7D020029FE63 /* Music Tinder-Bridging-Header.h */,
 			);
 			path = "Music Tinder";
 			sourceTree = "<group>";
@@ -116,6 +171,37 @@
 				1884DB7F1B9A78900029FE63 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1884DBAD1B9A7E1E0029FE63 /* Swipe Clone */ = {
+			isa = PBXGroup;
+			children = (
+				1884DB8B1B9A7D030029FE63 /* MDCSwipeToChoose.h */,
+				1884DB8C1B9A7D030029FE63 /* MDCSwipeToChooseDelegate.h */,
+				1884DB8D1B9A7D030029FE63 /* UIView+MDCSwipeToChoose.h */,
+				1884DB8E1B9A7D030029FE63 /* UIView+MDCSwipeToChoose.m */,
+				1884DB8F1B9A7D030029FE63 /* MDCSwipeToChooseView.h */,
+				1884DB901B9A7D030029FE63 /* MDCSwipeToChooseView.m */,
+				1884DB931B9A7DB40029FE63 /* MDCSwipeOptions.h */,
+				1884DB941B9A7DB40029FE63 /* MDCSwipeOptions.m */,
+				1884DB951B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.h */,
+				1884DB961B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.m */,
+				1884DB971B9A7DB40029FE63 /* MDCSwipeDirection.h */,
+				1884DB981B9A7DB40029FE63 /* MDCSwipeResult.h */,
+				1884DB991B9A7DB40029FE63 /* MDCSwipeResult.m */,
+				1884DB9A1B9A7DB40029FE63 /* MDCPanState.h */,
+				1884DB9B1B9A7DB40029FE63 /* MDCPanState.m */,
+				1884DBA01B9A7DF20029FE63 /* MDCGeometry.h */,
+				1884DBA11B9A7DF20029FE63 /* MDCGeometry.m */,
+				1884DBA21B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.h */,
+				1884DBA31B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.m */,
+				1884DBA41B9A7DF20029FE63 /* UIView+MDCBorderedLabel.h */,
+				1884DBA51B9A7DF20029FE63 /* UIView+MDCBorderedLabel.m */,
+				1884DBA61B9A7DF20029FE63 /* MDCViewState.h */,
+				1884DBA71B9A7DF20029FE63 /* MDCViewState.m */,
+				1884DBA81B9A7DF20029FE63 /* MDCSwipeToChoose-Prefix.pch */,
+			);
+			name = "Swipe Clone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +286,11 @@
 			files = (
 				1884DB701B9A78900029FE63 /* Main.storyboard in Resources */,
 				1884DB751B9A78900029FE63 /* LaunchScreen.xib in Resources */,
+				1884DBB11B9AA7160029FE63 /* stop.png in Resources */,
 				1884DB721B9A78900029FE63 /* Images.xcassets in Resources */,
+				1884DBB31B9AB5520029FE63 /* stoletheshow.mp3 in Resources */,
+				1884DBAF1B9AA70E0029FE63 /* play.png in Resources */,
+				1884DBB71B9BAA520029FE63 /* DataView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +309,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1884DB691B9A78900029FE63 /* RootViewController.swift in Sources */,
+				1884DB9E1B9A7DB40029FE63 /* MDCSwipeResult.m in Sources */,
 				1884DB6D1B9A78900029FE63 /* ModelController.swift in Sources */,
+				1884DBA91B9A7DF20029FE63 /* MDCGeometry.m in Sources */,
+				1884DB921B9A7D030029FE63 /* MDCSwipeToChooseView.m in Sources */,
 				1884DB6B1B9A78900029FE63 /* DataViewController.swift in Sources */,
+				1884DB911B9A7D030029FE63 /* UIView+MDCSwipeToChoose.m in Sources */,
+				1884DB9C1B9A7DB40029FE63 /* MDCSwipeOptions.m in Sources */,
 				1884DB671B9A78900029FE63 /* AppDelegate.swift in Sources */,
+				1884DBAA1B9A7DF20029FE63 /* UIColor+MDCRGB8Bit.m in Sources */,
+				1884DBB51B9AD8DD0029FE63 /* PushButtonView.swift in Sources */,
+				1884DBAB1B9A7DF20029FE63 /* UIView+MDCBorderedLabel.m in Sources */,
+				1884DBAC1B9A7DF20029FE63 /* MDCViewState.m in Sources */,
+				1884DBB91B9BC2A10029FE63 /* SwipeView.swift in Sources */,
+				1884DB9F1B9A7DB40029FE63 /* MDCPanState.m in Sources */,
+				1884DB9D1B9A7DB40029FE63 /* MDCSwipeToChooseViewOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Music Tinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Music Tinder/Music Tinder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -360,9 +465,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Music Tinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Music Tinder/Music Tinder-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -419,6 +526,7 @@
 				1884DB861B9A78900029FE63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1884DB871B9A78900029FE63 /* Build configuration list for PBXNativeTarget "Music TinderTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +535,7 @@
 				1884DB891B9A78900029FE63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

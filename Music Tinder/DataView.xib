@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SwipeView" customModule="Music_Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IhT-eL-L5R">
+                    <rect key="frame" x="8" y="-8" width="600" height="600"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jRV-vF-HDd">
+                            <rect key="frame" x="180" y="181" width="240" height="240"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="240" id="XHP-er-5M6"/>
+                                <constraint firstAttribute="height" constant="240" id="lDL-Mz-sID"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="120"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLW-bh-Tjw">
+                            <rect key="frame" x="275" y="275" width="51" height="51"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51" id="2N6-N7-xhB"/>
+                                <constraint firstAttribute="width" constant="51" id="QpZ-JL-yuI"/>
+                            </constraints>
+                            <state key="normal" image="stop.png"/>
+                            <connections>
+                                <action selector="PlayButton:" destination="iN0-l3-epB" eventType="touchDown" id="UbC-an-zea"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Hello" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bUl-Cn-9oP">
+                            <rect key="frame" x="10" y="414" width="580" height="166"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr6-y7-Giy">
+                            <rect key="frame" x="0.0" y="8" width="86" height="30"/>
+                            <state key="normal" title="Liked Songs">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="SongPage:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dap-zG-bzp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="bUl-Cn-9oP" firstAttribute="leading" secondItem="IhT-eL-L5R" secondAttribute="leading" constant="10" id="32C-ib-KG9"/>
+                        <constraint firstItem="jRV-vF-HDd" firstAttribute="top" secondItem="IhT-eL-L5R" secondAttribute="top" constant="181" id="AcJ-Hx-aCa"/>
+                        <constraint firstItem="nLW-bh-Tjw" firstAttribute="centerX" secondItem="jRV-vF-HDd" secondAttribute="centerX" id="OWx-6N-oAd"/>
+                        <constraint firstItem="nLW-bh-Tjw" firstAttribute="centerX" secondItem="IhT-eL-L5R" secondAttribute="centerX" id="ca5-15-nXU"/>
+                        <constraint firstItem="bUl-Cn-9oP" firstAttribute="top" secondItem="nLW-bh-Tjw" secondAttribute="bottom" constant="88" id="diL-Cq-AF0"/>
+                        <constraint firstItem="nLW-bh-Tjw" firstAttribute="centerY" secondItem="jRV-vF-HDd" secondAttribute="centerY" constant="-0.5" id="tRu-eh-Pa5"/>
+                        <constraint firstItem="bUl-Cn-9oP" firstAttribute="centerX" secondItem="nLW-bh-Tjw" secondAttribute="centerX" id="w2V-A0-FkR"/>
+                        <constraint firstAttribute="bottom" secondItem="bUl-Cn-9oP" secondAttribute="bottom" constant="20" id="wtL-0R-q5L"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IhT-eL-L5R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-8" id="NC1-Wv-CsF"/>
+                <constraint firstItem="IhT-eL-L5R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="Xep-xa-thu"/>
+                <constraint firstItem="IhT-eL-L5R" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="c5R-ks-TLG"/>
+                <constraint firstAttribute="trailing" secondItem="IhT-eL-L5R" secondAttribute="trailing" constant="-8" id="t0u-Go-v3K"/>
+            </constraints>
+            <connections>
+                <outlet property="AlbumArtView" destination="jRV-vF-HDd" id="TnX-PK-scf"/>
+                <outlet property="PlayButton" destination="nLW-bh-Tjw" id="nzd-qJ-Zu8"/>
+                <outlet property="songInfoBox" destination="bUl-Cn-9oP" id="wj6-WB-Lpx"/>
+            </connections>
+            <point key="canvasLocation" x="209" y="229"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="stop.png" width="256" height="256"/>
+    </resources>
+</document>

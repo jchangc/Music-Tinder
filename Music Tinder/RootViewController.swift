@@ -10,9 +10,19 @@ import UIKit
 
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
+    @IBAction func BackButton(sender: UIButton) {
+        
+        
+        
+        
+    }
+    @IBOutlet var showInfo: UIButton!
+    
     var pageViewController: UIPageViewController?
+    var songTextDisplay = [AnyObject]()
 
-
+    
+    @IBOutlet var likedSongs: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -40,6 +50,18 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
+        
+        
+        songTextDisplay = startingViewController.song_chosen
+        let temparray = [String]()
+        for text in songTextDisplay{
+            songTextDisplay.append("\(text)")
+        }
+        
+        let stringRepresentation = "-".join(temparray)
+        
+        self.likedSongs.text = stringRepresentation
+        
     }
 
     override func didReceiveMemoryWarning() {
